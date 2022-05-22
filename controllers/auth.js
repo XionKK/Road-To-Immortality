@@ -101,16 +101,16 @@ exports.register = (req, res) => {
                 console.log(results);
             }
         });*/
-        db.query('INSERT INTO stats SET (SELECT id FROM users WHERE email = ?)',[email], (error, results)=>{
-            if(error){
-                console.log(error);
-            } else {
-                console.log(results);
-            }
-        });
+ 
 
     });
-
+    db.query('INSERT INTO stats SET (SELECT id FROM users WHERE email = ?)',[email], (error, results)=>{
+        if(error){
+            console.log(error);
+        } else {
+            console.log(results);
+        }
+    });
 
 }
 
