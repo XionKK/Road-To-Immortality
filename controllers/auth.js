@@ -104,7 +104,7 @@ exports.register = (req, res) => {
  
 
     });
-    db.query('INSERT INTO stats SELECT id FROM users WHERE email = ?',[email], (error, results)=>{
+    db.query('INSERT INTO stats(id) SELECT id FROM users WHERE email = ?',[email], (error, results)=>{
         if(error){
             console.log(error);
         } else {
