@@ -198,9 +198,37 @@ input[type="radio"] {
     border-left: 0;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
-    border-color:-webkit-linear-gradient(red,blue);
+    border-color:-webkit-linear-gradient(rgb(73, 0, 0),rgb(0, 0, 85));
     width: 11%;
     margin-bottom: 15px;
     border:5px;
     list-style: none;
+}
+
+#sideMenu .list-group .subHeader{
+    border-left:0;
+    border-top-right-radius: 5px;
+}
+
+p.subHeader{
+    background:rgb(0, 0, 85) -webkit-linear-gradient(right, red, blue);
+    border-color:rgb(0, 0, 85);
+    color:#fff;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:0px;
+
+}
+
+.subHeader{
+    width:100%;
+    text-align:center;
+    padding:5px;
+    border-bottom-width:1px;
+    font-size:14px;
+    font-weight:bold;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    text-transform:uppercase;
 }
