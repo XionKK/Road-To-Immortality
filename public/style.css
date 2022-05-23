@@ -291,7 +291,8 @@ input[type="radio"] {
   }
 
   .tabcontent {
-      color:white;
+      position:absolute;
+      color:rgb(68, 24, 24);
       display:none;
       padding:100px 20px;
       height:100%;
