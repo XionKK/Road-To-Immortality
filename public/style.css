@@ -216,7 +216,7 @@ input[type="radio"] {
       padding:0;
       margin:0;
   }
-  .unstyled a {
+  .unstyled button {
     text-decoration: none;
   }
 
@@ -224,14 +224,14 @@ input[type="radio"] {
     position: relative;
     overflow: hidden;
   }
-  .list-hover-slide a {
+  .list-hover-slide button {
     display: block;
     position: relative;
     z-index: 1;
     transition: 0.35s ease color;
   }
 
-  .list-hover-slide a:before {
+  .list-hover-slide button:before {
     content: "";
     display: block;
     z-index: -1;
@@ -245,12 +245,12 @@ input[type="radio"] {
     transition: 0.35s ease left;
   }
 
-  .list-hover-slide a.is-current:before, .list-hover-slide a:hover:before {
+  .list-hover-slide button.is-current:before, .list-hover-slide button:hover:before {
     left: 0;
   }
 
   /* Sidebar links */
-  .sidebar a {
+  .sidebar button {
     display: block;
     color: black;
     padding: 16px;
@@ -258,23 +258,23 @@ input[type="radio"] {
   }
   
   /* Active/current link */
-  .sidebar a.active {
+  .sidebar button.active {
     background-color: #aa0a04;
     color: white;
   }
 
-  .sidebar a.active:hover {
+  .sidebar button.active:hover {
     background-color: #5a0603;
     color: rgb(46, 6, 189);
   }
   
-  .sidebar a.disabled{
+  .sidebar button.disabled{
       background-color:#f1f1f1;
       color:#555;
   }
 
   /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
+  .sidebar button:hover:not(.active) {
     background-color: #555;
     color: white;
   }
@@ -304,3 +304,16 @@ input[type="radio"] {
       float: none;
     }
   }
+
+  .tablink{
+      cursor:pointer;
+  }
+
+  .tabcontent {
+      color:white;
+      display:none;
+      padding:100px 20px;
+      height:auto;
+  }
+
+  #Status #Inventory #Train #Battle{background-color: red;}
