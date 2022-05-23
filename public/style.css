@@ -295,7 +295,6 @@ input[type="radio"] {
       display:none;
       padding:100px 20px;
       height:100%;
-      width:50%;
   }
 
   #Status #Inventory #Train #Battle{background-color: red;}
