@@ -201,7 +201,7 @@ input[type="radio"] {
     z-index:1;
 }
 
-#sideMenu .list-group{
+#sideMenu .menuDiv{
     display: block;
     border-left: 0;
     border-top-right-radius:10px;
@@ -211,11 +211,11 @@ input[type="radio"] {
     border:5px;
 }
 
-#sideMenu .list-group ul{
+#sideMenu .menuDiv ul{
     list-style: none;
 }
 
-#sideMenu .list-group .subHeader{
+#sideMenu .menuDiv .subHeader{
     border-left:0;
     border-top-right-radius: 5px;
 }
