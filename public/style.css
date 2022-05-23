@@ -215,10 +215,20 @@ input[type="radio"] {
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #04AA6D;
+    background-color: #aa0a04;
     color: white;
   }
+
+  .sidebar a.active:hover {
+    background-color: #5a0603;
+    color: rgb(82, 79, 79);
+  }
   
+  .sidebar a.disabled{
+      background-color:#f1f1f1;
+      color:#555;
+  }
+
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
     background-color: #555;
