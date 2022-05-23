@@ -202,7 +202,6 @@ input[type="radio"] {
 }
 
 #sideMenu .menuDiv{
-    display: block;
     border-left: 0;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
@@ -224,11 +223,6 @@ p.subHeader{
     background:rgb(0, 0, 85) -webkit-linear-gradient(left, red,black, blue);
     border-color:rgb(0, 0, 85);
     color:#fff;
-    display:block;
-    margin-block-start: 0em;
-    margin-block-end:0em;
-    margin-inline-start:0px;
-    margin-inline-end:0px;
 
 }
 
