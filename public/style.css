@@ -193,6 +193,13 @@ input[type="radio"] {
     background: -webkit-linear-gradient(left,rgb(112, 0, 0),rgb(0, 0, 0),rgb(16, 0, 104) );
 }
 
-.btn-center{
-    text-align:center;
+#sideMenu .list-group{
+    display: block;
+    border-left: 0;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-color:-webkit-linear-gradient(red,blue);
+    width: 5%;
+    margin-bottom: 15px;
+    border:5px;
 }
