@@ -39,6 +39,6 @@ db.connect((err) =>{
 //Define Routes
 app.use('/', require('./routes/pages'));
 app.use('/auth',require('./routes/auth'));
-
+app.use('/game', require('./scripts/pagetabs'));
 
 app.listen(port, () => console.log(`Server started on ${port}`))
