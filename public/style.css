@@ -260,7 +260,7 @@ input[type="radio"] {
   /* Active/current link */
   .sidebar button.active {
     background-color: #aa0a04;
-    color: white;
+    color: rgb(156, 6, 6);
   }
 
   .sidebar button.active:hover {
@@ -314,6 +314,7 @@ input[type="radio"] {
       display:none;
       padding:100px 20px;
       height:auto;
+      width:fit-content;
   }
 
   #Status #Inventory #Train #Battle{background-color: red;}
