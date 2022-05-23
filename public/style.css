@@ -193,6 +193,14 @@ input[type="radio"] {
     background: -webkit-linear-gradient(left,rgb(112, 0, 0),rgb(0, 0, 0),rgb(16, 0, 104) );
 }
 
+#sideMenu{
+    left:0;
+    width:160px;
+    position:absolute;
+    top:70px;
+    z-index:1;
+}
+
 #sideMenu .list-group{
     display: block;
     border-left: 0;
@@ -202,6 +210,9 @@ input[type="radio"] {
     width: 11%;
     margin-bottom: 15px;
     border:5px;
+}
+
+#sideMenu .list-group ul{
     list-style: none;
 }
 
@@ -211,7 +222,7 @@ input[type="radio"] {
 }
 
 p.subHeader{
-    background:rgb(0, 0, 85) -webkit-linear-gradient(right, red, blue);
+    background:rgb(0, 0, 85) -webkit-linear-gradient(left, red,black, blue);
     border-color:rgb(0, 0, 85);
     color:#fff;
     display:block;
