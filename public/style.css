@@ -26,16 +26,14 @@ nav ul {
 
 nav  li {
     list-style: none;
-    font-size: 20px;
-    font-weight: 400;
-    color: -webkit-linear-gradient(white 100px, #38495a);
 }
 
 nav  li a {
-    color: #fff;
     text-decoration: none;
-    font-weight: bold;
     padding: 5px 8px;
+    font-size: 20px;
+    font-weight: 400;
+    color: -webkit-linear-gradient(white 100px, #38495a);
 }
 
 nav  li a:hover {
