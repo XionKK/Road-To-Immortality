@@ -293,9 +293,10 @@ input[type="radio"] {
 
   .tabcontent {
       color:rgb(255, 255, 255);
-      display:none;
+      display:flex;
       padding:100px 20px;
       height:100%;
+      width: auto;
   }
 
  div.list-group {
