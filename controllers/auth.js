@@ -135,6 +135,17 @@ exports.isLoggedIn = async (req, res, next) => {
                 return next();
 
         });
+
+        db.query('SELECT * FROM stats WHERE id = ?',[decoded.id], (error, result)=>{
+            console.log(result);
+
+            if(!result){
+                return next();
+            }
+            req.userstats = result[0];
+            return next();
+        });
+
         } catch (error) {
             console.log(error);
             return next();

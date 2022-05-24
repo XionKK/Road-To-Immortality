@@ -21,7 +21,8 @@ router.get('/profile', authController.isLoggedIn, (req,res)=>{
 
     if(req.user){
     res.render('profile', {
-        user: req.user
+        user: req.user,
+        userstats: req.userstats
     });        
     } else {
         res.redirect('/login');
@@ -32,7 +33,8 @@ router.get('/profile', authController.isLoggedIn, (req,res)=>{
 router.get('/game', authController.isLoggedIn, (req,res)=>{
     if(req.user){
         res.render('game',{
-            user:req.user
+            user:req.user,
+            userstats: req.userstats
         });
     } else {
         res.redirect('login');
@@ -42,7 +44,8 @@ router.get('/game', authController.isLoggedIn, (req,res)=>{
 router.get('/leaderboard', authController.isLoggedIn, (req,res)=>{
     if(req.user){
         res.render('leaderboard',{
-            user:req.user
+            user:req.user,
+            userstats: req.userstats
         });
     } else {
         res.redirect('login');
