@@ -25,14 +25,14 @@
 
 <!-- The sidebar -->
 <div class="list-group list-hover-slide">
-<button class="tablink" onclick="openPage('Status', this, 'black')"id="defaultOpen">Status</button>
-<button class="tablink" onclick="openPage('Inventory', this, 'black')" >Inventory</button>
-<button class="tablink" onclick="openPage('Train', this, 'black')">Train</button>
-<button class="tablink" onclick="openPage('Battle', this, 'black')">Battle</button>
-<button class="tablink" onclick="openPage('Market', this, 'black')" disabled>Market</button>
-<button class="tablink" onclick="openPage('Chat', this, 'black')" disabled>Chat</button>
-<button class="tablink" onclick="openPage('Members', this, 'black')" disabled>Members</button>
-<button class="tablink" onclick="openPage('Achievements', this, 'black')" disabled>Achievements</button>
+<button class="tablink" onclick="openPage('Status', this, 'black'); resettextColor('Status', this, 'black')"id="defaultOpen">Status</button>
+<button class="tablink" onclick="openPage('Inventory', this, 'black'); resettextColor('Status', this, 'black')" >Inventory</button>
+<button class="tablink" onclick="openPage('Train', this, 'black'); resettextColor('Status', this, 'black')">Train</button>
+<button class="tablink" onclick="openPage('Battle', this, 'black'); resettextColor('Status', this, 'black')">Battle</button>
+<button class="tablink" onclick="openPage('Market', this, 'black'); resettextColor('Status', this, 'black')" disabled>Market</button>
+<button class="tablink" onclick="openPage('Chat', this, 'black'); resettextColor('Status', this, 'black')" disabled>Chat</button>
+<button class="tablink" onclick="openPage('Members', this, 'black'); resettextColor('Status', this, 'black')" disabled>Members</button>
+<button class="tablink" onclick="openPage('Achievements', this, 'black'); resettextColor('Status', this, 'black')" disabled>Achievements</button>
 </div>
 <!-- Page content -->
 <div id="Status" class="tabcontent">
@@ -71,6 +71,19 @@
   
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
+
+  }
+
+   function resettextColor(pageName, elmnt, color) {
+
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+
+    // Remove the text color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.color = color;
+    }
 
     //Add the specific text color to the button used to open the tab content
     elmnt.style.color = 'white';
