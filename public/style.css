@@ -290,8 +290,12 @@ input[type="radio"] {
       cursor:pointer;
   }
 
+  .tablink:hover{
+      background-color: #555;
+  }
+
   .tabcontent {
-      color:rgb(68, 24, 24);
+      color:rgb(255, 255, 255);
       display:none;
       padding:100px 20px;
       height:100%;
