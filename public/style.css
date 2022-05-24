@@ -301,7 +301,7 @@ input[type="radio"] {
 
  div.list-group {
      width: 6%;
-     /*float:left;*/
+     float:left;
      border: 5px solid white;
      height:fit-content;
  }
