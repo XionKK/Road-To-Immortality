@@ -132,7 +132,7 @@ html,body {
     z-index: 0;
     border-radius: 5px;
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background: -webkit-linear-gradient(left, rgb(112, 0, 0), rgb(0, 0, 0), rgb(16, 0, 104));
+    background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
 }
 
 input[type="radio"] {
@@ -179,7 +179,7 @@ input[type="radio"] {
 }
 
 .form-inner form .field input:focus {
-    border-color: #9c0c02;
+    border-color: hsl(98 100% 62%);
 }
 
 .form-inner form .pass-link {
@@ -193,7 +193,7 @@ input[type="radio"] {
 
 .form-inner form .pass-link a,
 .form-inner form .signup-link a {
-    color: #9c0c02;
+    color: hsl(204 100% 59%);
     text-decoration: none;
 }
 
@@ -209,7 +209,7 @@ input[type="radio"] {
     padding-left: 0px;
     border: none;
     cursor: pointer;
-    background: -webkit-linear-gradient(left, rgb(112, 0, 0), rgb(0, 0, 0), rgb(16, 0, 104));
+    background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
 }
 
 
