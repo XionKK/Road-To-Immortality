@@ -6,7 +6,7 @@ nav {
     -webkit-background-clip: text;
     background-clip:text;
     background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
-    color: -webkit-linear-gradient(white 100px, #38495a);;
+    color: -webkit-linear-gradient(white 100px, #38495a);
     padding: 30px 60px;
     display: flex;
     position: relative;
@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     font-family: "lato", sans-serif;
     font-weight: 700;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-size:50px;
 }
 
@@ -26,8 +26,9 @@ nav ul {
 
 nav  li {
     list-style: none;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 400;
+    color: -webkit-linear-gradient(white 100px, #38495a);
 }
 
 nav  li a {
