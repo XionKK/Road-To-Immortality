@@ -293,12 +293,20 @@ input[type="radio"] {
 
   .tabcontent {
       color:rgb(255, 255, 255);
-      display:flex;
+      width: 94%;
       padding:100px 20px;
       height:100%;
-      width: auto;
+      float:left;
   }
 
  div.list-group {
      width: 6%;
+     float:left;
+     border: 10px solid white;
+     height:50%;
+ }
+
+ .list-group button{
+     text-align: center;
+
  }
