@@ -10,6 +10,9 @@ nav {
     height: 11%;
     justify-content: space-between;
     font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 nav ul {
@@ -334,7 +337,7 @@ div.list-group {
 #stars:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: auto;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -352,7 +355,7 @@ div.list-group {
 #stars2:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: auto;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -370,7 +373,7 @@ div.list-group {
 #stars3:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: auto;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -387,13 +390,13 @@ div.list-group {
     }
 }
 
-/*#title span {
+#title span {
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
-#title {
+/*#title {
     position:absolute;
     color: #FFF;
     font-family: "lato", sans-serif;
