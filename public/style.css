@@ -287,8 +287,7 @@ input[type="radio"] {
       cursor:pointer;
       height:55px;
       padding:0;
-    display:table-cell;
-    vertical-align: middle;
+    text-align:justify;
   }
 
   .tablink:hover{
