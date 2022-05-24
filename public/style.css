@@ -302,7 +302,7 @@ input[type="radio"] {
  div.list-group {
      width: 6%;
      float:left;
-     border: 5px solid white;
+     border: 2px solid -webkit-linear-gradient(red,black,blue);
      height:fit-content;
  }
 
