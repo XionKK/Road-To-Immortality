@@ -11,7 +11,7 @@
 nav {
     top:-10px;
     
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background: black;
     padding: 30px 60px;
     display: flex;
     position: relative;
