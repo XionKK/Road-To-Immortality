@@ -24,18 +24,14 @@
     </nav>
 
 <!-- The sidebar -->
-<div class="sidebar">
-    <ul class="unstyled list-hover-slide">
-  <li><button class="tablink" onclick="openPage('Status', this, 'white') id=defaultOpen">Status</button></li>
-  <li><button class="tablink" onclick="openPage('Inventory', this, 'white')">Inventory</button></li>
-  <li><button class="tablink" onclick="openPage('Train', this, 'white')">Train</button></li>
-  <li><button class="tablink" onclick="openPage('Battle', this, 'white')">Battle</button></li>
-  <li><button class="disabled" href="#market">Market</button></li>
-  <li><button class="disabled" href="#members">Members</button></li>
-  <li><button class="disabled" href="#chat">Chat</button></li>
-  <li><button class="disabled" href="#achievements">Achievements</button></li>
-    </ul>
-</div>
+<button class="tablink" onclick="openPage('Status', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Inventory', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Train', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('Battle', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('Market', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Chat', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Members', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('Achievements', this, 'orange')">About</button>
 
 <!-- Page content -->
 <div id="Status" class="tabcontent">
