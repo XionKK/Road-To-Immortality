@@ -9,8 +9,7 @@ nav {
     position: relative;
     height: 150px;
     justify-content: space-between;
-    font-family: "lato", sans-serif;
-
+    /*font-family: "lato", sans-serif;*/
     font-weight: 400;
     letter-spacing: 5px;
 }
@@ -390,13 +389,13 @@ div.list-group {
     }
 }
 
-#title span {
+/*#title span {
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
             background-clip:text;
     -webkit-text-fill-color: transparent;
   }
-  
+*/  
 /*#title {
     position:absolute;
     color: #FFF;
