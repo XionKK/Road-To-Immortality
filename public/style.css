@@ -301,4 +301,6 @@ input[type="radio"] {
       height:100%;
   }
 
-  #Status #Inventory #Train #Battle{background-color: red;}
+ div.list-group {
+     width: 20%;
+ }
