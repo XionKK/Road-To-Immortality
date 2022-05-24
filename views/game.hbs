@@ -25,14 +25,14 @@
 
 <!-- The sidebar -->
 <div class="list-group list-hover-slide">
-<button class="tablink" onclick="openPage('Status', this, 'red')"id="defaultOpen">Status</button>
-<button class="tablink" onclick="openPage('Inventory', this, 'green')" >Inventory</button>
-<button class="tablink" onclick="openPage('Train', this, 'blue')">Train</button>
-<button class="tablink" onclick="openPage('Battle', this, 'orange')">Battle</button>
-<button class="tablink" onclick="openPage('Market', this, 'red')" disabled>Market</button>
-<button class="tablink" onclick="openPage('Chat', this, 'green')" disabled>Chat</button>
-<button class="tablink" onclick="openPage('Members', this, 'blue')" disabled>Members</button>
-<button class="tablink" onclick="openPage('Achievements', this, 'orange')" disabled>Achievements</button>
+<button class="tablink" onclick="openPage('Status', this, 'black')"id="defaultOpen">Status</button>
+<button class="tablink" onclick="openPage('Inventory', this, 'black')" >Inventory</button>
+<button class="tablink" onclick="openPage('Train', this, 'black')">Train</button>
+<button class="tablink" onclick="openPage('Battle', this, 'black')">Battle</button>
+<button class="tablink" onclick="openPage('Market', this, 'black')" disabled>Market</button>
+<button class="tablink" onclick="openPage('Chat', this, 'black')" disabled>Chat</button>
+<button class="tablink" onclick="openPage('Members', this, 'black')" disabled>Members</button>
+<button class="tablink" onclick="openPage('Achievements', this, 'black')" disabled>Achievements</button>
 </div>
 <!-- Page content -->
 <div id="Status" class="tabcontent">
@@ -71,6 +71,9 @@
   
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
+
+    //Add the specific text color to the button used to open the tab content
+    elmnt.style.color = white 
   }
   
   // Get the element with id="defaultOpen" and click on it

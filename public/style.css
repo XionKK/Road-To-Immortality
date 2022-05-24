@@ -286,11 +286,11 @@ input[type="radio"] {
   }
 
   .tablink{
-      font-family: 'Odibee Sans',cursive;
-      font-size:30px;
-      cursor:pointer;
-      height:55px;
-      padding:0;
+    font-family: 'Odibee Sans',cursive;
+    font-size:35px;
+    cursor:pointer;
+    height:55px;
+    padding:0;
     text-align:justify;
   }
 
@@ -300,14 +300,14 @@ input[type="radio"] {
 
   .tabcontent {
       color:rgb(255, 255, 255);
-      width: 94%;
+      width: 92%;
       padding:100px 20px;
       height:100%;
       float:left;
   }
 
  div.list-group {
-     width: 6%;
+     width: 8%;
      float:left;
      border: 5px solid -webkit-linear-gradient(red,blue);
  }
