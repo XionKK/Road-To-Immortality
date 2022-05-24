@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Odibee Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-#title{
+#title , #menu{
     background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
     -webkit-background-clip: text;
     background-clip: text;
