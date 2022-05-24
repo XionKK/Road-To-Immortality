@@ -287,11 +287,11 @@ input[type="radio"] {
 
   .tablink{
     font-family: 'Odibee Sans',cursive;
-    font-size:35px;
+    font-size:38px;
     cursor:pointer;
     height:55px;
     padding:0;
-    text-align:justify;
+    text-align:center;
   }
 
   .tablink:hover{
@@ -300,14 +300,14 @@ input[type="radio"] {
 
   .tabcontent {
       color:rgb(255, 255, 255);
-      width: 92%;
+      width: 91%;
       padding:100px 20px;
       height:100%;
       float:left;
   }
 
  div.list-group {
-     width: 8%;
+     width: 9%;
      float:left;
      border: 5px solid maroon;
  }
