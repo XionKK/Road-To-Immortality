@@ -303,5 +303,5 @@ input[type="radio"] {
 
  div.list-group {
      width: 6%;
-     display:none;
+     display:block;
  }
