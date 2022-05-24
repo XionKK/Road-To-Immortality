@@ -14,24 +14,24 @@ nav {
     letter-spacing: 5px;*/
 }
 
-nav span ul {
+nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-nav span li {
+nav  li {
     list-style: none;
 }
 
-nav span li a {
+nav  li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 8px;
 }
 
-nav span li a:hover {
+nav  li a:hover {
     color: yellow;
     text-decoration: none;
 }
