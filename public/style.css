@@ -301,9 +301,9 @@ input[type="radio"] {
 
  div.list-group {
      width: 6%;
-     float:left;
-     border: 10px solid white;
-     height:50%;
+     /*float:left;*/
+     border: 5px solid white;
+     height:fit-content;
  }
 
  .list-group button{
