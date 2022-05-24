@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 nav {
-    top: -10px;
     background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
-    color: -webkit-linear-gradient(white, #38495a);;
+    color: -webkit-linear-gradient(white 100px, #38495a);;
     padding: 30px 60px;
     display: flex;
     position: relative;
@@ -338,7 +337,7 @@ div.list-group {
 #stars:after {
     content: " ";
     position: absolute;
-    top: auto;
+    top: 100%;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -356,7 +355,7 @@ div.list-group {
 #stars2:after {
     content: " ";
     position: absolute;
-    top: auto;
+    top: 100%;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -374,7 +373,7 @@ div.list-group {
 #stars3:after {
     content: " ";
     position: absolute;
-    top: auto;
+    top: 100%;
     width: 3px;
     height: 3px;
     background: transparent;
