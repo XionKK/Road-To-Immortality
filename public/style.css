@@ -15,24 +15,24 @@ nav {
     letter-spacing: 5px;
 }
 
-nav ul {
+nav span ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-nav li {
+nav span li {
     list-style: none;
 }
 
-nav li a {
+nav span li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 8px;
 }
 
-nav li a:hover {
+nav span li a:hover {
     color: yellow;
     text-decoration: none;
 }
