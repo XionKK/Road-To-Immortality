@@ -11,7 +11,7 @@
 nav {
     top:-10px;
     
-    background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     padding: 30px 60px;
     display: flex;
     position: relative;
