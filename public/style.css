@@ -306,11 +306,10 @@ input[type="radio"] {
  div.list-group {
      width: 6%;
      float:left;
-     border: 2px solid -webkit-linear-gradient(red,blue);
-     height:fit-content;
+     border: 5px solid -webkit-linear-gradient(red,blue);
  }
 
- .list-group button{
+ /*.list-group button{
      text-align: center;
 
- }
+ }*/
