@@ -203,6 +203,7 @@ input[type="radio"] {
     position: fixed;
     height: 100%;
     overflow: auto;
+    display:flex;
   }
   
   *,
@@ -225,7 +226,7 @@ input[type="radio"] {
     overflow: hidden;
   }
   .list-hover-slide button {
-    display: block;
+    display: flex;
     position: relative;
     z-index: 1;
     transition: 0.35s ease color;
@@ -233,7 +234,7 @@ input[type="radio"] {
 
   .list-hover-slide button:before {
     content: "";
-    display: block;
+    display: flex;
     z-index: -1;
     position: absolute;
     left: -100%;
@@ -268,10 +269,6 @@ input[type="radio"] {
     color: rgb(46, 6, 189);
   }
   
-  .sidebar button.disabled{
-      background-color:#f1f1f1;
-      color:#555;
-  }
 
   /* Links on mouse-over */
   .sidebar button:hover:not(.active) {
@@ -303,5 +300,4 @@ input[type="radio"] {
 
  div.list-group {
      width: 6%;
-     display:block;
  }
