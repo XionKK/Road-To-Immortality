@@ -302,5 +302,6 @@ input[type="radio"] {
   }
 
  div.list-group {
-     width: 8%;
+     width: 6%;
+     display:none;
  }
