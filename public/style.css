@@ -312,7 +312,7 @@ input[type="radio"] {
      border: 5px solid -webkit-linear-gradient(red,blue);
  }
 
- /*.list-group button{
+ .list-group button{
      text-align: center;
 
- }*/
+ }
