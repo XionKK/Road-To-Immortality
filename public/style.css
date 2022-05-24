@@ -10,10 +10,9 @@
 
 nav {
     top:-10px;
-    -webkit-mask:linear-gradient(-webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px),transparent);
-    mask:(-webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px),transparent);
-    /*background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
-    */padding: 30px 60px;
+    
+    background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
+    padding: 30px 60px;
     display: flex;
     position: relative;
     height: 150px;
@@ -42,7 +41,10 @@ nav  li a {
 }
 
 nav  li a:hover {
-    color: yellow;
+    background: linear-gradient(to right, hsl(204 100% 59%),hsl(98 100% 62%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
 }
 
