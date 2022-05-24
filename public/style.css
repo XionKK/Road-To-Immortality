@@ -3,7 +3,6 @@
 
 nav {
     top:-10px;
-    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip:text;
     background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
