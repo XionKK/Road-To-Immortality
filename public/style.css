@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 nav {
-    top: 20px;
+    top: -10px;
     background: -webkit-linear-gradient(left, rgb(112, 0, 0) -500px, rgb(0, 0, 0), rgb(16, 0, 104) 2500px);
-    color: #fff;
+    color: -webkit-linear-gradient(white, #38495a);;
     padding: 30px 60px;
     display: flex;
     position: relative;
