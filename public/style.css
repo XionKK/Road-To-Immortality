@@ -290,7 +290,7 @@ input[type="radio"] {
     font-size:38px;
     cursor:pointer;
     height:55px;
-    padding:0;
+    padding:auto;
     text-align:center;
   }
 
@@ -301,7 +301,7 @@ input[type="radio"] {
   .tabcontent {
       color:rgb(255, 255, 255);
       width: 91%;
-      padding:200px 20px;
+      padding:50px 20px;
       height:100%;
       float:left;
   }
