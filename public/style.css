@@ -9,6 +9,7 @@ nav {
     position: relative;
     height: 11%;
     justify-content: space-between;
+    font-family: "lato", sans-serif;
 }
 
 nav ul {
@@ -392,10 +393,10 @@ div.list-group {
     -webkit-text-fill-color: transparent;
   }
   
-#title {
+/*#title {
     position:absolute;
     color: #FFF;
     font-family: "lato", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 5px;
-  }
+  }*/
