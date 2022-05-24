@@ -287,7 +287,6 @@ input[type="radio"] {
       cursor:pointer;
       height:55px;
       padding:0;
-      margin:0 auto;
     display:table-cell;
     vertical-align: middle;
   }
