@@ -278,13 +278,14 @@ input[type="radio"] {
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
-    margin-left: 200px;
+    margin-left: auto;
     padding: 1px 16px;
     height: 1000px;
   }
 
   .tablink{
       cursor:pointer;
+      height:50px;
   }
 
   .tablink:hover{
@@ -302,7 +303,7 @@ input[type="radio"] {
  div.list-group {
      width: 6%;
      float:left;
-     border: 2px solid -webkit-linear-gradient(red,black,blue);
+     border: 2px solid -webkit-linear-gradient(red,blue);
      height:fit-content;
  }
 
