@@ -173,6 +173,20 @@ exports.userStats = async (req, res, next) => {
     }
 }
 
+exports.AlluserStats = async (req, res, next) =>{
+
+
+        db.query('SELECT * FROM stats', (error, result)=>{
+            console.log(result);
+
+            if(!result){
+                return next();
+            }
+            req.alluserstats = result;
+            return next();
+        });
+        }
+
 exports.logout = async (req, res) => {
     res.cookie('jwt', 'logout', {
         expires: new Date(Date.now()+ 2*1000),

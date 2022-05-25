@@ -30,7 +30,7 @@ router.get('/profile', authController.isLoggedIn, authController.userStats, (req
 
 });
 
-router.get('/game', authController.isLoggedIn, (req,res)=>{
+router.get('/game', authController.isLoggedIn, authController.userStats, (req,res)=>{
     if(req.user){
         res.render('game',{
             user:req.user,
@@ -41,50 +41,16 @@ router.get('/game', authController.isLoggedIn, (req,res)=>{
     }
 });
 
-router.get('/leaderboard', authController.isLoggedIn, (req,res)=>{
+router.get('/leaderboard', authController.isLoggedIn, authController.AlluserStats, (req,res)=>{
     if(req.user){
         res.render('leaderboard',{
             user:req.user,
-            stats:req.userstats
+            allstats:req.alluserstats
         });
     } else {
         res.redirect('/login');
     }
 });
-
-router.get('/profile', authController.userStats, (req,res)=>{
-
-    if(req.userstats){
-    res.render('profile', {
-        stats: req.userstats
-    });        
-    } else {
-        res.redirect('/login');
-    }
-
-});
-
-router.get('/game', authController.userStats, (req,res)=>{
-    if(req.userstats){
-        res.render('game',{
-            stats:req.userstats
-        });
-    } else {
-        res.redirect('/login');
-    }
-});
-
-router.get('/leaderboard', authController.userStats, (req,res)=>{
-    if(req.userstats){
-        res.render('leaderboard',{
-            stats:req.userstats
-        });
-    } else {
-        res.redirect('/login');
-    }
-});
-
-
 
 
 module.exports = router;
