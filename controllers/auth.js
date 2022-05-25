@@ -136,15 +136,7 @@ exports.isLoggedIn = async (req, res, next) => {
 
         });
 
-        db.query('SELECT * FROM stats WHERE id = ?',[decoded.id], (error, result)=>{
-            console.log(result);
-
-            if(!result){
-                return next();
-            }
-            req.userstats = result[0];
-            return next();
-        });
+        
 
         } catch (error) {
             console.log(error);
@@ -154,6 +146,31 @@ exports.isLoggedIn = async (req, res, next) => {
             next();
     }
 
+}
+
+exports.userStats = async (req, res, next) => {
+    if(req.cookies.jwt) {
+        try {
+            const decoded = await promisify(jwt.verify)(req.cookies.jwt, process.env.JWT_SECRET);
+
+        db.query('SELECT * FROM stats WHERE id = ?',[decoded.id], (error, result)=>{
+            console.log(result);
+
+            if(!result){
+                return next();
+            }
+            req.userstats = result[0];
+            return next();
+        });
+        }
+        catch(error)
+        {
+            console.log(error);
+            return next();
+    }
+    } else {
+        next();
+    }
 }
 
 exports.logout = async (req, res) => {
